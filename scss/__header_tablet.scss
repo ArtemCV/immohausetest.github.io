@@ -1,0 +1,79 @@
+@media (max-width: $tablet) {
+    header {
+      min-height: 56px;
+      // outline: 1px solid blue;
+    }
+  
+    .header-container {
+      max-width: 1024px;
+      min-height: 56px;
+      display: block;
+      margin: 0 auto;
+      padding-left: 28px;
+      padding-right: 24px;
+      // outline: 1px solid green;
+    }
+    .header-wrapper {
+      // display: flex;
+  
+      // flex-direction: row;
+      // color: #fff;
+      // outline: 1px solid red;
+    }
+  
+    .header-menu__button {
+      display: flex;
+      margin-top: 21px;
+      width: 16px;
+      height: 14px;
+      background-repeat: no-repeat;
+      background-image: url("../img/menu-button.png");
+    }
+  
+    .head__logo {
+      width: 150px;
+      height: 38px;
+      margin: 0 0;
+  
+      padding: 0 0;
+      margin-top: 9px;
+      margin-left: 28px;
+      // outline: 1px solid red;
+    }
+  
+    .contact-wrapper {
+      width: 350px;
+      // outline: 1px solid green;
+    }
+  
+    .head__tel {
+      margin-top: 18px;
+      margin-left: 0px;
+      // margin-left: auto;
+      // margin-left: 412px;
+      justify-self: flex-end;
+      // margin-left: 40px;
+      font-size: 16px;
+      line-height: 20px;
+      // letter-spacing: 1px;
+    }
+    .head__btn-dump-request {
+      // margin-left: 90px;
+      margin-top: 7px;
+      margin-left: auto;
+  
+      // font-family: "Montserrat Regular";
+      // font-style: normal;
+      // font-weight: normal;
+      // font-size: 16px;
+      // line-height: 20px;
+  
+      background-color: #000;
+      color: #ff6800;
+      // text-transform: uppercase;
+    }
+  
+    .topmenu {
+      display: none;
+    }
+  }

@@ -1,0 +1,52 @@
+@media (max-width: $mobile) {
+  header {
+    min-height: 59px;
+    // outline: 1px solid blue;
+  }
+
+  .header-container {
+    max-width: 1024px;
+    min-height: 59px;
+    padding-left: 20px;
+    padding-right: 17px;
+  }
+  .header-wrapper {
+     
+  }
+
+  .header-menu__button {
+
+    margin-right: auto;
+    min-width: 16px;
+  }
+
+  .head__logo {
+    width: 130px;
+    height: 33px;
+    margin: 0 0;
+
+    padding: 0 0;
+    margin-top: 13px;
+    margin-left: 28px;
+    // outline: 1px solid red;
+  }
+
+  .contact-wrapper {
+    margin-top: 5px;
+    width: auto;
+  }
+
+  .head__tel-icon {
+    display: flex;
+  }
+  .head__tel {
+    display: none;
+  }
+  .head__btn-dump-request {
+    display: none;
+  }
+
+  .topmenu {
+    display: none;
+  }
+}

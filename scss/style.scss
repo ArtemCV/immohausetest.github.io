@@ -1,0 +1,20 @@
+$format: screen;
+$mobile: 375px;
+$tablet: 1024px;
+$desktop: 1920px;
+
+
+
+@import "__grid";
+
+
+
+@import "__fonts";
+@import "__header";
+@import "_rent-Menu";
+@import "__slider";
+@import "__filter";
+@import "__appartments";
+@import "__contacts";
+@import "__footer";
+@import "__map.scss";

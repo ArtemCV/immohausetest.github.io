@@ -1,0 +1,30 @@
+@media (max-width: $tablet) {
+  .slider-section {
+    width: 1024px;
+    // max-width: 1920px;
+    margin: 0 auto;
+    background-image: url("../img/slider-bg.jpg");
+    background-repeat: no-repeat;
+    color: #000;
+    background-color: blueviolet;
+    background-position:center;
+    
+  }
+  .slider-containder {
+    max-width: 1920px;
+    min-height: 500px;
+    display: block;
+    margin: 0 auto;
+    //   outline: 1px solid red;
+  }
+  .main-slaider {
+    margin: 0 auto;
+    position: relative;
+    width: 1204px;
+
+    // background-repeat: no-repeat;
+    // background-image: url('../img/slider-fake.jpg');
+    // width: 1204px;
+    // height: 500px;
+  }
+}

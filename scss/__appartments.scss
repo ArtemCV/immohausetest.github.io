@@ -1,0 +1,260 @@
+.apartments-section {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: "Montserrat Regular,sans-serif";
+  min-height: 2552px;
+  //   text-transform: uppercase;
+  background-color: #efeff4;
+}
+
+.apartments-containder {
+  max-width: 1560px;
+  min-height: 80px;
+  display: block;
+  margin-left: auto;
+
+  //   outline: 1px solid red;
+}
+
+.apartments-wrapper {
+  display: flex;
+}
+
+.apartments__description {
+  margin-top: 0;
+  padding-top: 0;
+  // outline: 1px solid blueviolet;
+}
+.apartments__text {
+  padding: 0;
+  margin: 0;
+  margin-top: 32px;
+  font-family: "Montserrat Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  // letter-spacing: 1.8px;
+}
+.appartment__navigation {
+  padding-top: 1px;
+  margin-top: 2px;
+  font-family: "Montserrat Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.appartment__count-find-text {
+  margin-top: 25px;
+  margin-bottom: 23px;
+  font-family: "Montserrat Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.apartments-viewer-fided {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  width: 892px;
+  min-height: 692px;
+  height: 692px;
+  max-height: 692px;
+  
+
+  color: #efeff4;
+  justify-content: space-between;
+  align-content: space-between;
+  outline: 1px solid green;
+}
+
+.appartment-cart-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appartment-cart {
+  margin: 0;
+  padding: 0;
+  background-color: #232323;
+  height: 341px;
+  outline: 1px solid blue;
+}
+.apartments__image {
+  // width: 221px;
+  // height: 230px;
+}
+.appartment-cart__decripiton {
+  padding: 7px 10px 10px 10px;
+
+  //   p {
+  //     padding: 0;
+  //     margin: 0;
+  //   }
+}
+
+.appartment-cart__decripiton-left {
+  font-family: "Montserrat Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  //   text-align: right;
+  //   color: red;
+  letter-spacing: 1px;
+}
+.appartment-cart__adress {
+  margin: 0;
+  margin-top: 10px;
+
+  // letter-spacing: 2.1px;
+}
+.appartment-cart__count-room {
+  margin: 0;
+  margin-top: 10px;
+  // letter-spacing: 2.1px;
+}
+.appartment-cart__square {
+  margin-top: 10px;
+}
+
+.appartment-cart__decripiton-right {
+  font-family: "Montserrat Medium,sans-serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+}
+
+.appartment-cart__decripiton-id {
+  margin: 0;
+  margin-top: -5px;
+  font-family: "Montserrat Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 20px;
+  color: #efeff4;
+  letter-spacing: 1px;
+}
+
+.appartment-cart__decripiton-cost {
+  margin: 0;
+  margin-top: 36px;
+  font-family: "Montserrat Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #7f7f7f;
+  /* identical to box height, or 143% */
+  text-decoration-line: line-through;
+  letter-spacing: normal;
+}
+.appartment-cart__decripiton-discount {
+  margin: 0;
+  margin-top: 0px;
+  font-family: "Montserrat Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 20px;
+  color: #ff6800;
+
+  letter-spacing: normal;
+}
+
+.appartments-viewer__more-btn-wrapper {
+  display: flex;
+  margin-bottom: 40px;
+}
+.appartments-viewer__more-btn {
+  margin-left: auto;
+  //   float: right;
+  width: 150px;
+  height: 37.52px;
+  background: linear-gradient(180deg, #ff6800 0%, #722e00 100%);
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Montserrat Medium,sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.recently-viewed__header,
+.top-viewed__header {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 23px;
+  font-family: "Montserrat Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+}
+.top-viewed__header {
+  // letter-spacing: 4.5px;
+}
+
+.apartments-viewer--recently,
+.apartments-viewer-top {
+  min-height: 341px;
+  margin-bottom: 40px;
+}
+
+.appartment__rent-in-moskov-header,
+.appartment__we-offer-header {
+  margin: 0;
+  margin: 0;
+  font-family: "Montserrat Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.appartment__we-offer-header {
+  margin-top: 13px;
+  margin-bottom: 0px;
+  text-transform: none;
+  letter-spacing: -1.2px;
+  //
+}
+
+.appartment__rent-in-moskov-text,
+.appartment__we-offer-text {
+  margin: 0;
+  margin: 0;
+  margin-bottom: 0px;
+  width: 892px;
+  // font-family: "Montserrat Medium,sans-serif";
+  font-family: "Montserrat Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: justify;
+  // color: red;
+}
+
+.apartments__map {
+  margin-left: auto;
+  background-image: url(../img/map-fake.png);
+  width: 648px;
+  height: 1215px;
+}
+
+@import "_appartments-tablet";

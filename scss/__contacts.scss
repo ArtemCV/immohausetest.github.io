@@ -1,0 +1,106 @@
+.contacts-section {
+  margin: 0 auto;
+  min-height: 722px;
+  max-width: 1920px;
+  background-image: url("../img/contacts-bg.jpg");
+  background-repeat: no-repeat;
+  color: #fff;
+  p {
+    padding: 0 0;
+    margin: 0 0;
+  }
+}
+.contacts-container {
+  margin: 0 auto;
+  padding-top: 154px;
+  width: 1118px;
+  //   outline: 1px solid red;
+}
+.contacts__msg-center {
+  //   display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 63px;
+  width: 648px;
+}
+.contacts-message {
+  text-align: center;
+  font-family: "Montserrat Semibold";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  //   color: red;
+  letter-spacing: 2px;
+  //   outline: 1px solid yellow;
+}
+.contacts-wrapper {
+  max-height: 322px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1118px;
+  //   outline: 1px solid blue;
+}
+
+.contacts__inputs {
+  height: 100%;
+}
+
+.contats__input-description {
+  font-family: "Montserrat Medium,sans-serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 2.7px;
+}
+.contacts__input {
+  margin-top: 10px;
+  margin-bottom: 29px;
+  width: 534px;
+  height: 50px;
+  border: none;
+}
+
+.contacts__msg {
+  margin-top: 10px;
+  margin-bottom: 34px;
+  width: 534px;
+  height: 198px;
+}
+
+.contacts__sambit-wrapper {
+  display: flex;
+}
+.contacts__cb-licens {
+  margin-right: 30px;
+}
+.contacts__licens-text {
+  font-family: "Montserrat Regular,sans-serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1.8px;
+}
+.contacts__sambit {
+  width: 200px;
+  height: 50px;
+  margin-left: auto;
+  padding: 0;
+  background: linear-gradient(180deg, #ff6800 0%, #722e00 100%);
+  border-radius: 10px;
+
+  font-family: "Montserrat Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 60px;
+  /* or 432% */
+  //   display: flex;
+  //   align-items: center;
+  //   text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  border: none;
+  color: #fff;
+}

@@ -1,0 +1,46 @@
+@media (max-width: $tablet) {
+  .filter-menu {
+    margin-left: 32px;
+  }
+
+  .filter-submenu {
+    position: absolute;
+    left: -32px;
+
+    padding-top: 25px;
+    visibility: hidden;
+    z-index: 5;
+    width: 1024px;
+    min-height: 328px;
+    background: #232323;
+    opacity: 0;
+
+    li {
+      min-height: 40px;
+      font-size: 12px;
+      line-height: 20px;
+      padding-left: 9.5px;
+      padding-right: 9.5px;
+    }
+    li:hover {
+      // background: #e9ecef;
+      // mix-blend-mode: normal;
+      // opacity: 0.4;
+    }
+  }
+
+  .filter-form {
+    //   outline: 1px solid red;
+    display: flex;
+    margin: 0 0;
+    margin-left: 0px;
+    margin-top: 20px;
+    padding: 0 0;
+  
+    font-family: "Montserrat Medium";
+    font-size: 16;
+    text-transform: uppercase;
+  }
+
+
+}

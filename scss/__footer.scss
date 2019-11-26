@@ -1,0 +1,56 @@
+.footer-section {
+  min-height: 358px;
+  padding-top: 71px;
+  margin: 0 auto;
+  max-width: 1920px;
+  background-color: #000;
+  color: #fff;
+}
+.footer-container {
+  margin: 0 auto;
+  text-align: center;
+  width: 345px;
+
+  font-family: "Montserrat Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  text-align: center;
+  text-transform: uppercase;
+  //   outline: 1px solid red;
+  letter-spacing: 1px;
+}
+.footer__tel {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding: 0;
+}
+.footer__email {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.footer__license {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 26px;
+  padding: 0;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+  text-align: center;
+  text-transform: uppercase;
+}
+.footer__icon-wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}

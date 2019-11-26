@@ -1,0 +1,17 @@
+@media (max-width: $mobile) {
+  .rent-menu-container {
+    margin: 0 auto;
+    // max-width: 375px;
+    min-height: 51px;
+    display: block;
+    //margin: 0 auto;
+    //   outline: 1px solid red;
+    //   outline: 1px solid red;
+  }
+  .rent-menu {
+    min-width: 710px;
+    padding-top: 18px;
+    margin-left: 17px;
+    //   outline: 1px solid red;
+  }
+}

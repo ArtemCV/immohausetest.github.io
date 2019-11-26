@@ -1,0 +1,147 @@
+
+header {
+  background-color: #000000;
+  color: #fff;
+  text-transform: uppercase;
+  //   border: 1px soli Blue;
+}
+.sticked-blok {
+  // position:fixed;
+  // top:0;
+}
+
+.header-container {
+  max-width: 1440px;
+  min-height: 80px;
+  display: block;
+  margin: 0 auto;
+
+  //   outline: 1px solid red;
+}
+.header-wrapper {
+  display: flex;
+
+  flex-direction: row;
+  color: #fff;
+}
+
+.head__logo {
+  margin: 0 0;
+  padding: 0 0;
+  margin-top: 15px;
+}
+
+//Меню
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  outline: none;
+
+  font-size: 16px;
+  line-height: 20px;
+  // letter-spacing: 1.5px;
+}
+.topmenu {
+  // backface-visibility: hidden;
+  min-width: 710px;
+  margin-top: 30px;
+  margin-left: 77px;
+  // outline: 1px solid red;
+}
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+  margin-right: 60px;
+}
+.topmenu > li:last-child {
+  margin-right: 0px;
+}
+
+.topmenu > li > a {
+  padding: 0 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Montserrat Regular", sans-serif;
+}
+.down:after {
+  // position: absolute;
+  content: "\f107";
+  margin-left: 5px;
+  font-family: FontAwesome;
+}
+
+.topmenu > li > .active {
+  color: #ff6800;
+}
+
+.topmenu li a:hover {
+  color: #ff6800;
+}
+.submenu {
+  background: #000;
+  // border: 1px solid #003559;
+  position: absolute;
+  // left: 0;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 5;
+  width: 150px;
+}
+.topmenu > li:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+}
+.submenu li a {
+  color: #fff;
+  font-size: 13px;
+  line-height: 36px;
+  padding: 0 0;
+  font-family: "Montserrat Regular", serif;
+}
+
+//Меню Конец
+
+.contact-wrapper {
+  display: flex;
+  margin-left: auto;
+  width: 453px;
+}
+
+
+.head__tel {
+  margin-left: auto;
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 16px;
+  line-height: 20px;
+  // letter-spacing: 1px;
+}
+.head__btn-dump-request {
+  margin-left: 90px;
+  margin-top: 19px;
+  width: 205px;
+  height: 42px;
+
+  font-family: "Montserrat Regular";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+
+  background-color: #000;
+  color: #ff6800;
+  text-transform: uppercase;
+}
+
+.head__tel-icon
+{
+  display: none;
+}
+
+@import "__header_tablet.scss";
+@import "__header_mobile.scss";

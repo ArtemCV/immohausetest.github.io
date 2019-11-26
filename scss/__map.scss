@@ -1,0 +1,46 @@
+#mapid {
+  margin-left: auto;
+  // background-image: url(../img/map-fake.png);
+  width: 648px;
+  height: 1215px;
+  z-index: 1;
+}
+.popupCustom {
+  background-color: red;
+  width: 384px;
+  height: 10px;
+  color: #fff;
+}
+
+.custom-popup .leaflet-popup-content-wrapper {
+  background: transparent;
+  background-color: transparent;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  // outline: 1px solid red;
+}
+.custom-popup .leaflet-popup-content-wrapper a {
+  // color: rgba(255, 255, 255, 0.5);
+}
+.custom-popup .leaflet-popup-tip-container {
+  width: 30px;
+  height: 15px;
+}
+.custom-popup .leaflet-popup-tip {
+  // border-left: 15px solid transparent;
+  // border-right: 15px solid transparent;
+  // border-top: 15px solid #2c3e50;
+}
+
+@media (max-width: $tablet) {
+  #mapid {
+    width: 512px;
+    height: 872px;
+  }
+}
+@media (max-width: $mobile) {
+  #mapid {
+    visibility: hidden;
+  }
+}

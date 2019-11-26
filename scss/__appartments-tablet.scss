@@ -1,0 +1,106 @@
+@media (max-width: $tablet) {
+  .apartments-section {
+    max-width: 1024px;
+    // min-height: 2552px;
+    // outline: 1px solid green;
+  }
+
+  .apartments-containder {
+    max-width: 1024px;
+    width: 1024px;
+    min-height: 80px;
+    // margin-left: auto;
+  }
+
+  .apartments__description {
+    // margin-top: 100px;
+    padding-top: 0;
+    padding-left: 50px;
+  }
+
+  .apartments__text {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-transform: uppercase;
+  }
+
+  .appartment__navigation {
+    padding-top: 0px;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .appartment__count-find-text {
+    margin-top: 17px;
+    margin-bottom: 15px;
+  }
+
+  .apartments-viewer-fided {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    width: 452px;
+    // min-height: 1064px;
+    height: 692px;
+    // overflow: hidden;
+    color: #efeff4;
+    // color: red;
+    justify-content: space-between;
+    align-content: space-between;
+    outline: 1px solid green;
+  }
+  .appartment-cart {
+    margin: 0;
+    padding: 0;
+    background-color: #232323;
+    width: 221px;
+    height: 341px;
+    outline: 1px solid blue;
+  }
+
+  .apartments__image {
+    width: 221px;
+    height: 230px;
+    outline: 1px solid red;
+  }
+  .appartment-cart__adress {
+    margin: 0;
+    margin-top: 10px;
+    // outline: 1px solid yellow;
+    font-size: 12px;
+    // letter-spacing: 2.1px;
+  }
+  .appartment-cart__count-room {
+    letter-spacing: -0.9px;
+  }
+  .appartment-cart__square {
+    letter-spacing: -0.9px;
+  }
+
+  .appartment-cart__decripiton-cost {
+    margin: 0;
+    margin-top: 36px;
+    font-family: "Montserrat Medium";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    text-decoration-line: line-through;
+  }
+
+  .appartment-cart__decripiton-discount {
+    margin: 0;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

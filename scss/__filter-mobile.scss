@@ -1,0 +1,33 @@
+@media (max-width: $mobile) {
+  .filter-containder {
+    min-height: 70px;
+  }
+
+  .filter-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    //   outline: 1px solid red;
+  }
+
+  .filter-menu {
+    margin-left: 17px;
+    order: 1;
+  }
+
+  .filter-description {
+    order: 0;
+    margin-left: 129px;
+    padding-top: 17px;
+    
+    font-family: "Montserrat Regular", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    text-align: right;
+    // letter-spacing: 1px;
+  }
+}
